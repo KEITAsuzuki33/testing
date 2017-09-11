@@ -29,6 +29,3 @@ create table following (email varchar(50), followee int(11));
 
 
 create table user (email varchar(50), name varchar(30), password varchar(255))
-
-
-alter table followd rename followed;
